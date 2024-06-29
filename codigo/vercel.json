@@ -1,4 +1,0 @@
-{
-  "routes": [
-    { "source": "/", "destination": "/Home_Feedback_Contato/index.html"}]
-}
