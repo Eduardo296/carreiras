@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 title: 'Registro bem-sucedido',
                 text: 'Conta criada com sucesso!'
             }).then(() => {
-                window.location.href = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/index.html';
+                window.location.href = '/Home_Feedback_Contato/index.html';
             });
         }
     });
