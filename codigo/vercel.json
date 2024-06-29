@@ -1,4 +1,4 @@
 {
-  "routes": [{ "source": "/", "destination": "/Home_Feedback_Contato/" }]
+  "rewrites": [{ "source": "/", "destination": "/Home_Feedback_Contato/"}]
 }
 
