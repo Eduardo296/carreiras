@@ -5,7 +5,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Garante que o corpo da página ocupe toda a altura visível do viewport */
+    min-height: 100vh; 
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; /* Adicionado para criar espaço entre header e main */
+    margin-bottom: 10px;
 }
 #welcome-message {
     color: white;
@@ -76,19 +76,19 @@ header button:hover {
 }
 
 main {
-    flex: 1; /* Ocupa o espaço restante entre o header e o footer */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px; /* Adicionado para criar espaço entre main e footer */
+    margin-bottom: 10px; 
 }
 
 .cards-container {
     display: flex;
     justify-content: space-around;
-    gap: 40px; /* Espaçamento entre os cards */
-    max-width: 1200px; /* Largura máxima dos cards */
-    padding: 40px; /* Espaçamento interno dos cards */
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 40px; 
 }
 
 .card {
@@ -96,14 +96,11 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 200px; /* Largura máxima de cada card */
 }
 
 .card img {
-    width: 100%;
-    max-width: 200px; /* Largura máxima da imagem */
-    height: auto;
-    border-radius: 50%; /* Bordas arredondadas para a imagem */
+    width: 200px;
+    border-radius: 50%; 
 }
 
 .rodape {
@@ -133,4 +130,8 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    
 }
